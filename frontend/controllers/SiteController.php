@@ -284,6 +284,14 @@ class SiteController extends Controller
   public function actionPesan()
   {
       $model = new Pesan();
+      if (Yii::$app->request->post()) {
+          $model->load(Yii::$app->request->post());
+          if ($model->validate()) {
+            Yii::$app->session->setFlash('success','Terima Kasil');
+          } else {
+            Yii::$app->session->setFlash('error','Terjadi Kesalahan');
+          }
+      }
       return $this ->render('pesan',['model'=>$model]);
   }
 }
