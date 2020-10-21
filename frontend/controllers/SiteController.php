@@ -15,6 +15,7 @@ use frontend\models\ResetPasswordForm;
 use frontend\models\SignupForm;
 use frontend\models\ContactForm;
 use frontend\models\EntryForm;
+use frontend\models\Pesan;
 
 /**
  * Site controller
@@ -278,5 +279,11 @@ class SiteController extends Controller
   public function actionHello()
   {
     return $this->render('hello');
+  }
+
+  public function actionPesan()
+  {
+      $model = new Pesan();
+      return $this ->render('Pesan',['model'=>$model]);
   }
 }
