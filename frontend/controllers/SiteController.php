@@ -284,6 +284,6 @@ class SiteController extends Controller
   public function actionPesan()
   {
       $model = new Pesan();
-      return $this ->render('Pesan',['model'=>$model]);
+      return $this ->render('pesan',['model'=>$model]);
   }
 }
