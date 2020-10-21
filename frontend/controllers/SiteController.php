@@ -274,4 +274,9 @@ class SiteController extends Controller
               return $this->render('entry', ['model' => $model]);
         }
     }
+  
+  public function actionHello()
+  {
+    return $this->render('hello');
+  }
 }
