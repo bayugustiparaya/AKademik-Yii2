@@ -291,7 +291,10 @@ class SiteController extends Controller
           } else {
             Yii::$app->session->setFlash('error','Terjadi Kesalahan');
           }
+          return $this ->render('hasil-pesan',['model'=>$model]);
+      } else {
+        return $this ->render('pesan',['model'=>$model]);
       }
-      return $this ->render('pesan',['model'=>$model]);
+      
   }
 }
