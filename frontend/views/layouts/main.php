@@ -42,6 +42,7 @@ AppAsset::register($this);
         ['label' => 'Mahasiswa', 'url' => ['/mahasiswa/index']],  // tambahkan menu navigasi pert 4
         ['label' => 'Contact', 'url' => ['/site/contact']],
         ['label' => 'Url', 'url' => ['/site/hello']],   // tambahkan menu navigasi pert 5
+        // ['label' => 'Pesan', 'url' => ['/site/pesan']],   // tambahkan menu navigasi pert 5
     ];
     if (Yii::$app->user->isGuest) {
         $menuItems[] = ['label' => 'Signup', 'url' => ['/site/signup']];
