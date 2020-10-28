@@ -295,6 +295,31 @@ class SiteController extends Controller
       } else {
         return $this ->render('pesan',['model'=>$model]);
       }
-      
+  }
+
+  public function actionQuery()
+  {
+    $db = Yii::$app->db;
+    $command = $db->createCommand('SELECT * FROM mahasiswa');
+    $mahasiswa = $command->queryAll();
+    echo "<h3 align='center'>Tabel Mahasiswa Langsung dari Controller</h3>";
+    echo " <table style='width:100%' border='1px'>
+    <tr>
+      <th align = 'left'>Nomor Bp</th>
+      <th align = 'left'>Nama</th>
+      <th align = 'left'>Kelas</th>
+      <th align = 'left'>Prodi</th>
+      <th align = 'left'>Nomor Hp</th>
+    </tr>";
+    foreach ($mahasiswa as $mahasiswa) {
+      echo "<tr>";
+      echo "<td>".$mahasiswa['nobp']."</td>";
+      echo "<td>".$mahasiswa['nama']."</td>";
+      echo "<td>".$mahasiswa['kelas']."</td>";
+      echo "<td>".$mahasiswa['prodi']."</td>";
+      echo "<td>".$mahasiswa['nohp']."</td>";
+      echo "</tr>";
+    }
+    echo "</table>";
   }
 }
