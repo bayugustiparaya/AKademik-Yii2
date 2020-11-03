@@ -1,10 +1,20 @@
 # Akademik-Yii2
-# Bayu Gusti Paraya [1811082018]
-# D4 - TRPL 3A - PNP
-# Web Framework
-# Yii Framework
+#### Bayu Gusti Paraya [1811082018]
+#### D4 - TRPL 3A - PNP
+#### Web Framework
+#### Yii Framework
+<br><br>
+## ~ Materi Pertemuan 4 
+1. Membuat database Akademik dan tabel mahasiswa [Menambahkan database](https://github.com/bayugustiparaya/Akademik-Yii2/commit/2be2a0c29db6def2b7a4a4055148ddb8d1fb79dd)
+2. [Mengatur config](https://github.com/bayugustiparaya/Akademik-Yii2/commit/15d62b983906de5ece4364c63714b4e709d418cd) database /common/config/main-local.php 
+3. [Membuat model Mahasiswa](https://github.com/bayugustiparaya/Akademik-Yii2/commit/a34ca0b276816667db4f20aac532233292c3b71e) /frontend/models/Mahasiswa.php
+4. [Membuat Controller Mahasiswa](https://github.com/bayugustiparaya/Akademik-Yii2/commit/0a91332adafca8f861aacbb316d0afd3096afdea)  /frontend/controllers/MahasiswaController.php
+5. [Membuat View Mahasiswa](https://github.com/bayugustiparaya/Akademik-Yii2/commit/da8e758c78771285e268ad7a18a1cd157ef84316) berupa list /frontend/views/mahasiswa/index.php
+6. [Modifikasi View Mahasiswa](https://github.com/bayugustiparaya/Akademik-Yii2/commit/4aab12f29400501219be12baa879f7434d118e03)  dari list menjadi tabel /frontend/views/mahasiswa/index.php
+7. [Menambahkan menu navigasi](https://github.com/bayugustiparaya/Akademik-Yii2/commit/2c5e3f8c84036864b2af461d1ec9812d2c8817cf) mahasiswa , supaya mudah diakses (/frontend/views/layouts/main.php)
 
 
+<br><br><hr><br>
 <p align="center">
     <a href="https://github.com/yiisoft" target="_blank">
         <img src="https://avatars0.githubusercontent.com/u/993323" height="100px">
