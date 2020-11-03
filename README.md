@@ -24,6 +24,10 @@
 8. [membuat model Pesan](https://github.com/bayugustiparaya/Akademik-Yii2/commit/560e0a400628c84d8863232c282bf551a30f800a) /frontend/models/Pesan.php 
 9. [menambahkan actionPesan](https://github.com/bayugustiparaya/Akademik-Yii2/commit/ebd3864382de4b2dac1c68c8e7bb106584f7950e) /frontend/controllers/SiteController.php 
 10. membuat form pesan [(view pesan)](https://github.com/bayugustiparaya/Akademik-Yii2/commit/0a78711fb82f9700418bf362ea28c9eb8c8e49b9) /frontend/views/site/pesan.php
+11. membuat tampilan [hasil pesan](https://github.com/bayugustiparaya/Akademik-Yii2/commit/854571805eb242c128d6456037b075534795922c) /frontend/views/site/hasil-pesan.php
+12. Melihat hasil di menu Url -> pilih 'pesan' Atau http://akademik.id/site/pesan
+
+
 <br><br><hr><br>
 <p align="center">
     <a href="https://github.com/yiisoft" target="_blank">
