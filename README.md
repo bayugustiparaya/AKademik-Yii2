@@ -12,7 +12,7 @@
 5. [Membuat View Mahasiswa](https://github.com/bayugustiparaya/Akademik-Yii2/commit/da8e758c78771285e268ad7a18a1cd157ef84316) berupa list /frontend/views/mahasiswa/index.php
 6. [Modifikasi View Mahasiswa](https://github.com/bayugustiparaya/Akademik-Yii2/commit/4aab12f29400501219be12baa879f7434d118e03)  dari list menjadi tabel /frontend/views/mahasiswa/index.php
 7. [Menambahkan menu navigasi](https://github.com/bayugustiparaya/Akademik-Yii2/commit/2c5e3f8c84036864b2af461d1ec9812d2c8817cf) mahasiswa , supaya mudah diakses (/frontend/views/layouts/main.php)
-<br>
+<br><br>
 ## ~ Materi Pertemuan 5  (Beauty URL)
 1. [Mengaktifkan .htaccess pada kali linux](http://www.andrianext.web.id/2017/02/mengaktifkan-htaccess-apache-di-linux.html)
 2. [membuat view hello - site](https://github.com/bayugustiparaya/Akademik-Yii2/commit/e622d4b54f7b97d77f92719a9a348b12d355e1bc) /frontend/views/site/hello.php untuk menampilkan tujuan link url
