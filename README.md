@@ -31,6 +31,12 @@
 1. menambahkan atribut prodi dan kelas pada tabel [akademik.mahasiswa](https://github.com/bayugustiparaya/Akademik-Yii2/commit/03fef4fabd34af2fae9e33b8b17aa3380130f43e) /akademik.sql
 2. manambahkan [actionQuery](https://github.com/bayugustiparaya/Akademik-Yii2/commit/b6039e93ddc48d2992cb4c2a05207f093fec919d) pada SiteController untuk menampilkan data /frontend/controllers/SiteController.php
 3. Melihat hasil http://akademik.id/site/query
+<br><br>
+## ~ Materi Pertemuan 7 (Active Record)
+1. membuat tabel [akademik.dosen](https://github.com/bayugustiparaya/Akademik-Yii2/commit/47d122514b606718bbcd931dfd7660e46c779d46) (nip, nama, alamat, nohp) dan mengisi beberapa data /akademik.dosen.sql
+2. membuat model [Dosen](https://github.com/bayugustiparaya/Akademik-Yii2/commit/f57e6ec050e5ac04363a93a12852242e511cae2a) /frontend/models/Dosen.php menggunakan ActiveRecord func tableName() untuk mendefinisikan nama tabel.
+3. [menambahkan actionActiveRecord SiteController](https://github.com/bayugustiparaya/Akademik-Yii2/commit/053d282f1e2af141c823fd5dc0555d325f056406) /frontend/controllers/SiteController.php untuk menampikan data dosen menjadi text
+4. [menampilkan data dosen menjadi tabel](https://github.com/bayugustiparaya/Akademik-Yii2/commit/0c1a470e585b5fb0b2e7a9ee5e46d4fe47228518) /frontend/controllers/SiteController.php supaya terlihat rapi
 
 <br><br><hr><br>
 <p align="center">
