@@ -28,7 +28,7 @@
 12. Melihat hasil di menu Url -> pilih 'pesan' Atau http://akademik.id/site/pesan
 <br><br>
 ## ~ Materi Pertemuan 6 (membuat view langsung di controller)
-1. menambahkan atribut prodi dan kelas pada tabel [akademik.mahasiswa]https://github.com/bayugustiparaya/Akademik-Yii2/commit/03fef4fabd34af2fae9e33b8b17aa3380130f43e) /akademik.sql
+1. menambahkan atribut prodi dan kelas pada tabel [akademik.mahasiswa](https://github.com/bayugustiparaya/Akademik-Yii2/commit/03fef4fabd34af2fae9e33b8b17aa3380130f43e) /akademik.sql
 2. manambahkan [actionQuery](https://github.com/bayugustiparaya/Akademik-Yii2/commit/b6039e93ddc48d2992cb4c2a05207f093fec919d) pada SiteController untuk menampilkan data /frontend/controllers/SiteController.php
 3. Melihat hasil http://akademik.id/site/query
 
