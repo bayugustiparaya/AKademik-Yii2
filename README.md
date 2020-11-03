@@ -12,7 +12,7 @@
 5. [Membuat View Mahasiswa](https://github.com/bayugustiparaya/Akademik-Yii2/commit/da8e758c78771285e268ad7a18a1cd157ef84316) berupa list /frontend/views/mahasiswa/index.php
 6. [Modifikasi View Mahasiswa](https://github.com/bayugustiparaya/Akademik-Yii2/commit/4aab12f29400501219be12baa879f7434d118e03)  dari list menjadi tabel /frontend/views/mahasiswa/index.php
 7. [Menambahkan menu navigasi](https://github.com/bayugustiparaya/Akademik-Yii2/commit/2c5e3f8c84036864b2af461d1ec9812d2c8817cf) mahasiswa , supaya mudah diakses (/frontend/views/layouts/main.php)
-
+<br><br>
 ## ~ Materi Pertemuan 5  (Beauty URL)
 1. [Mengaktifkan .htaccess pada kali linux](http://www.andrianext.web.id/2017/02/mengaktifkan-htaccess-apache-di-linux.html)
 2. [membuat view hello - site](https://github.com/bayugustiparaya/Akademik-Yii2/commit/e622d4b54f7b97d77f92719a9a348b12d355e1bc) /frontend/views/site/hello.php untuk menampilkan tujuan link url
@@ -26,7 +26,11 @@
 10. membuat form pesan [(view pesan)](https://github.com/bayugustiparaya/Akademik-Yii2/commit/0a78711fb82f9700418bf362ea28c9eb8c8e49b9) /frontend/views/site/pesan.php
 11. membuat tampilan [hasil pesan](https://github.com/bayugustiparaya/Akademik-Yii2/commit/854571805eb242c128d6456037b075534795922c) /frontend/views/site/hasil-pesan.php
 12. Melihat hasil di menu Url -> pilih 'pesan' Atau http://akademik.id/site/pesan
-
+<br><br>
+## ~ Materi Pertemuan 6 (membuat view langsung di controller)
+1. menambahkan atribut prodi dan kelas pada tabel [akademik.mahasiswa](https://github.com/bayugustiparaya/Akademik-Yii2/commit/03fef4fabd34af2fae9e33b8b17aa3380130f43e) /akademik.sql
+2. manambahkan [actionQuery](https://github.com/bayugustiparaya/Akademik-Yii2/commit/b6039e93ddc48d2992cb4c2a05207f093fec919d) pada SiteController untuk menampilkan data /frontend/controllers/SiteController.php
+3. Melihat hasil http://akademik.id/site/query
 
 <br><br><hr><br>
 <p align="center">
