@@ -322,4 +322,16 @@ class SiteController extends Controller
     }
     echo "</table>";
   }
+
+  public function actionActiveRecord()
+  {
+    $dosen = \frontend\models\Dosen::find()->all();
+    foreach ($dosen as $dosen) {
+      echo "<br>";
+      echo $dosen->nip." ";
+      echo $dosen->nama." ";
+      echo $dosen->alamat." ";
+      echo $dosen->nohp." ";
+    }
+  }
 }
