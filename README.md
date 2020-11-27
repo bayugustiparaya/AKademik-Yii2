@@ -37,7 +37,30 @@
 2. membuat model [Dosen](https://github.com/bayugustiparaya/Akademik-Yii2/commit/f57e6ec050e5ac04363a93a12852242e511cae2a) /frontend/models/Dosen.php menggunakan ActiveRecord func tableName() untuk mendefinisikan nama tabel.
 3. [menambahkan actionActiveRecord SiteController](https://github.com/bayugustiparaya/Akademik-Yii2/commit/053d282f1e2af141c823fd5dc0555d325f056406) /frontend/controllers/SiteController.php untuk menampikan data dosen menjadi text
 4. [menampilkan data dosen menjadi tabel](https://github.com/bayugustiparaya/Akademik-Yii2/commit/0c1a470e585b5fb0b2e7a9ee5e46d4fe47228518) /frontend/controllers/SiteController.php supaya terlihat rapi
-
+<br><br>
+## ~ Materi Pertemuan 8 (Gii Code Generator Yii)
+1. [Mencek modul](https://github.com/bayugustiparaya/Akademik-Yii2/commit/313a649a9787c72d879c13852d1638d5d6a87cd5) /frontend/config/main-local.php
+2. membuat tabel [akademik.jurusan](https://github.com/bayugustiparaya/Akademik-Yii2/commit/22f84af265e68242b26b71ad33ead480a3cc2d90) (id, nama, keterangan) dan mengisi beberapa data /akademik.jurusan.sql
+3. membuat model [Jurusan](https://github.com/bayugustiparaya/Akademik-Yii2/commit/e7cc4b4a6d04d978c31452a9d1b1f1752e177264) digenerate oleh gii /frontend/models/Jurusan.php
+4. Generate Crud [Jurusan](https://github.com/bayugustiparaya/Akademik-Yii2/commit/fe8e520ad841f82207abdaf217fe0ef8222bd0b1)  : 
+    1. /frontend/controllers/JurusanController.php
+    2. /frontend/models/JurusanSearch.php
+    3. /frontend/views/jurusan/_form.php
+    4. /frontend/views/jurusan/_search.php
+    5. /frontend/views/jurusan/create.php
+    6. /frontend/views/jurusan/index.php
+    7. /frontend/views/jurusan/update.php
+    8. /frontend/views/jurusan/view.php
+5. [edit namespace Controller, model, search](https://github.com/bayugustiparaya/Akademik-Yii2/commit/c7977c86014845f078c14408f936bf53e078d788) :
+    1. /frontend/controllers/JurusanController.php
+    2. /frontend/models/Jurusan.php
+    3. /frontend/models/JurusanSearch.php
+6. [edit eyd views](https://github.com/bayugustiparaya/Akademik-Yii2/commit/7a2b0748450fdbc75541b7db6b17b1c0cd9ee10a) :
+    1. /frontend/views/jurusan/create.php
+    2. /frontend/views/jurusan/index.php
+    3. /frontend/views/jurusan/update.php
+    4. /frontend/views/jurusan/view.php
+7. [akademik.jurusan](https://github.com/bayugustiparaya/Akademik-Yii2/commit/c08d50fd0b3eb15ecf4347f04ec24115dbb3056f)  setelah diedeit / dimanipulasi datanya /akademik.jurusan.hasil.sql
 <br><br><hr><br>
 <p align="center">
     <a href="https://github.com/yiisoft" target="_blank">
