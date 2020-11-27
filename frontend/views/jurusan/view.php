@@ -7,7 +7,7 @@ use yii\widgets\DetailView;
 /* @var $model app\models\Jurusan */
 
 $this->title = $model->id;
-$this->params['breadcrumbs'][] = ['label' => 'Jurusans', 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => 'Jurusan', 'url' => ['index']];        // edit eyd
 $this->params['breadcrumbs'][] = $this->title;
 \yii\web\YiiAsset::register($this);
 ?>
@@ -20,7 +20,7 @@ $this->params['breadcrumbs'][] = $this->title;
         <?= Html::a('Delete', ['delete', 'id' => $model->id], [
             'class' => 'btn btn-danger',
             'data' => [
-                'confirm' => 'Are you sure you want to delete this item?',
+                'confirm' => 'Apakah anda yakin ingin menghapus item ini?',         // edit eyd
                 'method' => 'post',
             ],
         ]) ?>
