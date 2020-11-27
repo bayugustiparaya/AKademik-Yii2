@@ -1,10 +1,10 @@
 <?php
 
-namespace app\models;
+namespace frontend\models;          // edit dari app ke frontend
 
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use app\models\Jurusan;
+use frontend\models\Jurusan;        // edit dari app ke frontend
 
 /**
  * JurusanSearch represents the model behind the search form of `app\models\Jurusan`.

@@ -1,10 +1,10 @@
 <?php
 
-namespace app\controllers;
+namespace frontend\controllers;         // edit dari app ke frontend
 
 use Yii;
-use app\models\Jurusan;
-use app\models\JurusanSearch;
+use frontend\models\Jurusan;            // edit dari app ke frontend
+use frontend\models\JurusanSearch;      // edit dari app ke frontend
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
