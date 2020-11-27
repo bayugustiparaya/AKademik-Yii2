@@ -9,6 +9,7 @@ $config = [
     ],
 ];
 
+// gii module otomatis ada ketika "php init" pertama kali yii di build
 if (!YII_ENV_TEST) {
     // configuration adjustments for 'dev' environment
     $config['bootstrap'][] = 'debug';
