@@ -14,3 +14,5 @@ CREATE TABLE `prodi` (
   `jurusan` int(11) NOT NULL,
   `telpon` varchar(10) DEFAULT NULL
 ) ;
+
+ALTER TABLE `prodi` ADD CONSTRAINT FOREIGN KEY(`jurusan`) REFERENCES `jurusan`(`id`);
