@@ -1,9 +1,9 @@
 <?php
 
-namespace app\controllers;
+namespace frontend\controllers;         // edit dari app ke frontend
 
 use Yii;
-use app\models\Prodi;
+use frontend\models\Prodi;              // edit dari app ke frontend
 use frontend\models\ProdiSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;

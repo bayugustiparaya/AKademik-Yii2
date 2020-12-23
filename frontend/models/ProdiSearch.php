@@ -1,13 +1,13 @@
 <?php
 
-namespace frontend\models;
+namespace frontend\models;          // edit dari app ke frontend
 
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use app\models\Prodi;
+use frontend\models\Prodi;          // edit dari app ke frontend
 
 /**
- * ProdiSearch represents the model behind the search form of `app\models\Prodi`.
+ * ProdiSearch represents the model behind the search form of `frontend\models\Prodi`.
  */
 class ProdiSearch extends Prodi
 {

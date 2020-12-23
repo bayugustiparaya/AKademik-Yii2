@@ -1,6 +1,6 @@
 <?php
 
-namespace app\models;
+namespace frontend\models;      // edit dari app ke frontend
 
 use Yii;
 
