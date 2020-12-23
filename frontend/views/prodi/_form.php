@@ -14,7 +14,8 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'nama_prodi')->textInput(['maxlength' => true]) ?>
 
-    <?= $form->field($model, 'jurusan')->textInput() ?>
+    <!--<?= $form->field($model, 'jurusan')->textInput() ?>-->
+    <?= $form->field($model, 'jurusan')->dropDownList(['1'=>'Teknologi Informasi','2'=>'Teknik Elektro']) ?>
 
     <?= $form->field($model, 'telpon')->textInput(['maxlength' => true]) ?>
 
