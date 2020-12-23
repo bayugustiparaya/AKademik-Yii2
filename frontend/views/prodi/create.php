@@ -5,8 +5,8 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model app\models\Prodi */
 
-$this->title = 'Create Prodi';
-$this->params['breadcrumbs'][] = ['label' => 'Prodis', 'url' => ['index']];
+$this->title = 'Tambah Prodi';
+$this->params['breadcrumbs'][] = ['label' => 'Prodi', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="prodi-create">
